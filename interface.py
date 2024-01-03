@@ -45,7 +45,7 @@ class KvantnaBankaApp:
 
 
     def izdaj_novcanicu(self, korisnik):
-        novcanica_id = korisnik.zahtevaj_novcanicu(8)
+        novcanica_id = korisnik.zahtevaj_novcanicu(1)
         self.text_output.insert(tk.END, f"ID izdane novčanice: {novcanica_id}\n")
         pass
 
